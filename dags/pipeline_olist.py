@@ -46,7 +46,7 @@ def _hook():
 
 
 @dag(
-    dag_id="pipeline_olist_completo",
+    dag_id="pipeline_olist_sql",
     description="Olist: GitHub → Bronze → Silver → Gold → quality checks (Aula 4 FIAP)",
     schedule=None,                      # manual. Desafio Prata B: "@daily"
     start_date=datetime(2025, 1, 1),
